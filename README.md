@@ -25,12 +25,11 @@ who found much more serious variants).
 
 ## Crashing Mature Projects
 
-I found a way of [segfaulting git
-diff](https://lore.kernel.org/git/CAFXAjY7XcL1APhLRXU8TO96z=f7957f2ieK56dHVsXUay55vpg@mail.gmail.com/)
+I found a way of [causing a segfault in git-diff](https://lore.kernel.org/git/CAFXAjY7XcL1APhLRXU8TO96z=f7957f2ieK56dHVsXUay55vpg@mail.gmail.com/)
 (fixed in [this git
 commit](https://github.com/git/git/commit/85a9a63c9268b18b24f25f6a14d6ae9966c3566d)).
 
 My [suggest.el
 project](https://debbugs.gnu.org/cgi/bugreport.cgi?bug=25684)
-uncovered [a way of segfaulting
+uncovered [a way of causing a segfault in
 Emacs](https://debbugs.gnu.org/cgi/bugreport.cgi?bug=25684).
