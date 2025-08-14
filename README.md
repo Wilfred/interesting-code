@@ -33,3 +33,7 @@ My [suggest.el
 project](https://debbugs.gnu.org/cgi/bugreport.cgi?bug=25684)
 uncovered [a way of causing a segfault in
 Emacs](https://debbugs.gnu.org/cgi/bugreport.cgi?bug=25684).
+
+I found a way of [crashing Python's mock
+library](https://bugs.python.org/issue24857) when comparing values
+with long strings.
