@@ -37,3 +37,9 @@ Emacs](https://debbugs.gnu.org/cgi/bugreport.cgi?bug=25684).
 I found a way of [crashing Python's mock
 library](https://bugs.python.org/issue24857) when comparing values
 with long strings.
+
+## Performance Bugs
+
+I [found and
+fixed](https://github.com/rust-lang/rust-analyzer/pull/23678)
+accidentally quadratic behaviour in rust-analyzer's type inference.
